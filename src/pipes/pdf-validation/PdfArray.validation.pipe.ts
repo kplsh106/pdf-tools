@@ -1,7 +1,7 @@
 import { ArgumentMetadata, BadRequestException, Injectable, PipeTransform } from "@nestjs/common";
 
 @Injectable()
-export class PdfValidatorPipe implements PipeTransform {
+export class PdfArrayValidatorPipe implements PipeTransform {
      transform(value: any, metadata: ArgumentMetadata): Express.Multer.File[] {
         try {
             const files:Express.Multer.File[] = value;

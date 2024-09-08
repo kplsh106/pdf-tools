@@ -10,6 +10,7 @@ function maxProfit(prices: number[], fee: number): number {
     console.log(profit)
     for(let k=n-2;k>=0;k--) {
 
+
     }
    return 1; 
     
