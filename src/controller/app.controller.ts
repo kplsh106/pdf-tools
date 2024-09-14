@@ -9,7 +9,7 @@ import { join } from 'path';
 import { unlink, writeFile } from 'fs/promises';
 import { exec } from 'child_process';
 import { promisify } from 'util';
-@Controller('first')
+@Controller()
 export class AppController {
   constructor(private readonly pdfService: PdfService) {}
 
